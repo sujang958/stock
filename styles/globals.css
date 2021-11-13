@@ -1,10 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap");
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+.noto-black {
+  font-display: swap;
+  font-family: "Noto Sans KR";
+  font-weight: 900;
+}
 
 p {
   font-display: swap;
-  font-family: "Noto Sans";
+  font-family: "Noto Sans KR";
+  font-weight: 700;
 }
+
+@tailwind components;
+@tailwind utilities;
